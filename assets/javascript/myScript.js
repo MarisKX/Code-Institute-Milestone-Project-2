@@ -46,7 +46,7 @@ $(".cars-r-m").hide().eq(carSelectorMiddleRent).show();
 let carSelectorRightRent = Math.floor(Math.random() * $(".cars-r-r").length);
 $(".cars-r-r").hide().eq(carSelectorRightRent).show();
 
-// shows car details from index page and adds image src to newly opened pop-up ---------------------------------------------------
+// shows car details from index page ---------------------------------------------------
 
 function showCarDetails(){
   let show = document.querySelector(".car-list-item");
@@ -66,4 +66,20 @@ function hideCarDetails(){
 
   show.classList.remove("show");
   hide.classList.remove("hide");
+}
+
+// moves to next and previous pictures in popup window ----------------------------------------------------------------------
+
+function nextCarouselItem(){
+  let currentPicture = document.querySelector(".active");
+  let nextPicture = currentPicture.nextElementSibling;
+  currentPicture.classList.remove("active");
+  nextPicture.classList.add("active");
+}
+
+function previousCarouselItem(){
+  let currentPicture = document.querySelector(".active");
+  let previousPicture = currentPicture.previousElementSibling;
+  currentPicture.classList.remove("active");
+  previousPicture.classList.add("active");
 }
