@@ -1,95 +1,202 @@
 body {
-    background-color: rgba(219, 219, 219);
-  }
-  
-  /* navbar and header styles *//* navbar and header styles *//* navbar and header styles *//* navbar and header styles *//* navbar and header styles */
-  
-  .logo-small {
-    height: 50px;
-    width: 50px;
-  }
-  
-  
-  #main-menu-frame {
-    background-color: rgba(18, 141, 255, 1);
-    position: sticky;
-     top: 0;
-     z-index: 100;
-  }
-  
-  .nav-link {
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 50px;
-    margin-bottom: auto;
-    font-size: 1.2em;
-    color: rgb(193, 195, 195);
-    background-color: transparent;
-    width: 185px;
-    text-align: center;
-    padding: 5px 2px 5px 2px;
-    transform: skewX(17deg);
-  }
-  
-  .nav-link.active {
-    margin-left: 10px;
-    margin-right: 10px;
-    font-size: 1.35em;
-    font-weight: bold;
-    color: rgb(18, 141, 255);
-    transform: skewX(17deg);
-  }
-  
-  .outer:hover .nav-link {
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: auto;
-    font-size: 1.35em;
-    font-weight: bold;
-    color: rgb(18, 141, 255);
-    transform: skewX(17deg);
-  }
-  
-  .outer {
-    margin: auto 0;
-    height: 150px;
-    transform: skewX(-17deg);
-  }
-  
-  .outer:hover {
-    background-color: rgb(193, 195, 195);
-  }
-  
-  .outer.active {
-    background-color: rgb(193, 195, 195);
-  }
-  
-  .navbar-toggler {
-    display: none;
-  }
-  
-  .navbar-brand {
-    margin: auto 0;
-    padding: 0.5rem;
-    border-radius: 50px;
-  }
-  
-  .navbar {
-    padding: 0;
-    margin: auto 0;
-    height: 150px;
-    width: 100%;
-  }
-  
-  .container-fluid {
-    height: 150px;
-  }
-  
-  .spacer {
-    width: 100%;
-    height: 5px;
-    background-color: rgb(219, 219, 219);
-  }
+  background-color: rgba(219, 219, 219);
+}
+
+/* navbar and header styles *//* navbar and header styles *//* navbar and header styles *//* navbar and header styles *//* navbar and header styles */
+
+.logo-small {
+  height: 50px;
+  width: 50px;
+}
+
+
+#main-menu-frame {
+  background-color: rgba(18, 141, 255, 1);
+  position: sticky;
+   top: 0;
+   z-index: 100;
+}
+
+.nav-link {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 50px;
+  margin-bottom: auto;
+  font-size: 1.2em;
+  color: rgb(193, 195, 195);
+  background-color: transparent;
+  width: 185px;
+  text-align: center;
+  padding: 5px 2px 5px 2px;
+  transform: skewX(17deg);
+}
+
+.nav-link.active {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 1.35em;
+  font-weight: bold;
+  color: rgb(18, 141, 255);
+  transform: skewX(17deg);
+}
+
+.outer:hover .nav-link {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: auto;
+  font-size: 1.35em;
+  font-weight: bold;
+  color: rgb(18, 141, 255);
+  transform: skewX(17deg);
+}
+
+.outer {
+  margin: auto 0;
+  height: 150px;
+  transform: skewX(-17deg);
+}
+
+.outer:hover {
+  background-color: rgb(193, 195, 195);
+}
+
+.outer.active {
+  background-color: rgb(193, 195, 195);
+}
+
+.navbar-toggler {
+  display: none;
+}
+
+.navbar-brand {
+  margin: auto 0;
+  padding: 0.5rem;
+  border-radius: 50px;
+}
+
+.navbar {
+  padding: 0;
+  margin: auto 0;
+  height: 150px;
+  width: 100%;
+}
+
+.container-fluid {
+  height: 150px;
+}
+
+.spacer {
+  width: 100%;
+  height: 5px;
+  background-color: rgb(219, 219, 219);
+}
+
+/* main content section *//* main content section *//* main content section *//* main content section *//* main content section *//* main content section *//* main content section *//* main content section */
+
+.main-content-section {
+  padding-left: 20px;
+}
+
+.row {
+  width: 90%;
+  margin-left: 30px;
+}
+
+.title-wrapper {
+  margin: 40px 0px 20px 50px;
+  height: 70px;
+  width: 100%;
+  background: linear-gradient(to right, rgb(18, 141, 255) 10%, rgb(219, 219, 219) 60%);
+  transform: skewX(-17deg);
+}
+
+.title-wrapper:hover {
+  background: linear-gradient(to right, rgb(193, 195, 195) 10%, rgb(219, 219, 219) 60%);
+}
+
+.title {
+  text-align: center;
+  float: left;
+  margin-left: 25px;
+  margin-top: 15px;
+  background-color: inherit;
+  color: rgb(193, 195, 195);
+  transform: skewX(17deg);
+}
+
+.title-wrapper:hover .title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(18, 141, 255);
+}
+
+.item-image-small {
+  float: right;
+  margin-right: 10px;
+}
+
+.car-list-item{
+  display: none;
+}
+
+.car-list-item.show {
+  visibility: visible;
+  display: block;
+  position: relative;
+  z-index: 1;
+}
+
+.car-image-frame {
+  align-items: center;
+  margin-top: 15px;
+}
+
+.item-image-large {
+  display: block;
+  margin: auto;
+}
+
+.main-menu-frame {
+  visibility: hidden;
+}
+
+.main-content-section.hide {
+  display: none;
+}
+
+/* slide carousel test field css */
+
+.carousel-item {
+  width: 90%;
+  max-height: 1100px;
+  margin: auto;
+  float: none;
+}
+
+.d-block {
+  max-height: inherit;
+  max-width: 1300px;
+  margin: auto;
+  object-fit: cover;
+}
+
+.slide-close-button {
+  padding: 0;
+  cursor: pointer;
+  object-fit: cover;
+  margin: auto 0;
+  border-radius: 5px;
+  width: inherit;
+  height: inherit;
+}
+
+.close-button-div {
+  margin: 0 auto;
+  width: 60px;
+  height: 30px;
+  background-color: rgb(193, 195, 195);
+}
+
 
 /* footer section  *//* footer section  *//* footer section  *//* footer section  *//* footer section  *//* footer section  *//* footer section  */
 
