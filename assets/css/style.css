@@ -97,7 +97,7 @@ body {
   padding-left: 20px;
 }
 
-.row.cars-for-sale {
+.row.cars-for-sale, .row.cars-for-rent, .row.service-your-car, .row.change-tires, .row.contact-us {
   width: 95%;
   margin-left: 30px;
 }
@@ -272,6 +272,10 @@ body {
   .container {
     max-width: 800px;
   }
+  .title-wrapper {
+    background: linear-gradient(to right, rgb(18, 141, 255) 30%, rgb(219, 219, 219) 80%);
+    width: 75%
+  }
 }
 
 /* active on mobile devices and small tablets*//* active on mobile devices and small tablets*//* active on mobile devices and small tablets*//* active on mobile devices and small tablets*/
@@ -305,10 +309,11 @@ body {
       color: black;
       margin-top: 30px;
     }
-    .row {
-      margin-left: 5px;
+    .row.cars-for-sale {
+    margin-left: 10px;
     }
     .title-wrapper {
       background: linear-gradient(to right, rgb(18, 141, 255) 30%, rgb(219, 219, 219) 80%);
+      width: 70%
     }
 }

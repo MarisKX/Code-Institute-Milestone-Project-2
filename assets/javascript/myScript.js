@@ -46,7 +46,7 @@ $(".cars-r-m").hide().eq(carSelectorMiddleRent).show();
 let carSelectorRightRent = Math.floor(Math.random() * $(".cars-r-r").length);
 $(".cars-r-r").hide().eq(carSelectorRightRent).show();
 
-// improved responsive design accirding to screen size ------------------------------------------
+
 
 if($(this).width() <1450){
   $("#third-car").addClass("hidden");
