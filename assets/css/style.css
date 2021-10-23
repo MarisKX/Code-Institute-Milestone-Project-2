@@ -97,8 +97,8 @@ body {
   padding-left: 20px;
 }
 
-.row {
-  width: 90%;
+.row.cars-for-sale {
+  width: 95%;
   margin-left: 30px;
 }
 
@@ -163,8 +163,19 @@ body {
   display: none;
 }
 
-.col-sm-6 {
-  padding-right: 0px;
+.col-md-6.image {
+  display: flex;
+  justify-content: center;
+}
+
+.col-md-4.image {
+  display: flex;
+  justify-content: center;
+}
+
+.col-sm-12.image {
+  display: flex;
+  justify-content: center;
 }
 
 /* slide carousel test field css */
@@ -201,6 +212,10 @@ body {
 }
 
 .hidden-picture {
+  display: none;
+}
+
+.col-md-6.hidden {
   display: none;
 }
 
@@ -289,5 +304,11 @@ body {
     .nav-link {
       color: black;
       margin-top: 30px;
+    }
+    .row {
+      margin-left: 5px;
+    }
+    .title-wrapper {
+      background: linear-gradient(to right, rgb(18, 141, 255) 30%, rgb(219, 219, 219) 80%);
     }
 }

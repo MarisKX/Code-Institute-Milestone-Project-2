@@ -46,6 +46,35 @@ $(".cars-r-m").hide().eq(carSelectorMiddleRent).show();
 let carSelectorRightRent = Math.floor(Math.random() * $(".cars-r-r").length);
 $(".cars-r-r").hide().eq(carSelectorRightRent).show();
 
+// improved responsive design accirding to screen size ------------------------------------------
+
+if($(this).width() <1450){
+  $("#third-car").addClass("hidden");
+  $(".cars-for-sale .col-md-4").each(function(){
+    $(this).removeClass("col-md-4").addClass("col-md-6")
+  });
+}
+
+if($(this).width() <950){
+  $("#third-car").removeClass("hidden");
+  $(".cars-for-sale .col-md-6").each(function(){
+    $(this).removeClass("col-md-6").addClass("col-md-12")
+  });
+}
+
+
+// locations map on index page --------------------------------------------------------
+
+// function initMap() {
+//  let googleMap = new google.maps.Map(document.getElementById("location-map"), {
+//    zoom: 3,
+//    center: {
+//      lat: 51.585255,
+//      lng: 5.056375
+//    }
+//  });
+//}
+
 // shows car details from index page ---------------------------------------------------
 
 function showCarDetailsSl(){
