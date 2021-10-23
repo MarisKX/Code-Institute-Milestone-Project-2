@@ -29,10 +29,10 @@ function displayMenu(){
 // selects random cars for sale to display on index page -----------------------------------
 
 let carSelectorLeftSale = Math.floor(Math.random() * $(".cars-s-l").length);
-$(".cars-s-l").hide().eq(carSelectorLeftSale).show();
+$(".cars-s-l").hide().eq(carSelectorLeftSale).show().addClass("random-car-sale");
 
 let carSelectorMiddleSale = Math.floor(Math.random() * $(".cars-s-m").length);
-$(".cars-s-m").hide().eq(carSelectorMiddleSale).show();
+$(".cars-s-m").hide().eq(carSelectorMiddleSale).show().addClass("random-car-sale");
 
 let carSelectorRightSale = Math.floor(Math.random() * $(".cars-s-r").length);
 $(".cars-s-r").hide().eq(carSelectorRightSale).show();
@@ -48,12 +48,32 @@ $(".cars-r-r").hide().eq(carSelectorRightRent).show();
 
 // shows car details from index page ---------------------------------------------------
 
-function showCarDetails(){
+function showCarDetailsSl(){
   let show = document.querySelector(".car-list-item");
   let hide = document.querySelector(".main-content-section");
-  let imgSrc = $(".item-image-small").attr("src");
-  console.log(imgSrc);
-  $("#first-image").attr("src", imgSrc);
+  let imgSrcFirst = $(".cars-s-l.random-car-sale").find(".first-image-small").attr("src");
+  let imgSrcSecond = $(".cars-s-l.random-car-sale").find(".second-image-small").attr("src");
+  let imgSrcThird = $(".cars-s-l.random-car-sale").find(".third-image-small").attr("src");
+  let imgSrcFourth = $(".cars-s-l.random-car-sale").find(".fourth-image-small").attr("src");
+  $("#first-image-details").attr("src", imgSrcFirst);
+  $("#second-image-details").attr("src", imgSrcSecond);
+  $("#third-image-details").attr("src", imgSrcThird);
+  $("#fourth-image-details").attr("src", imgSrcFourth);
+  show.classList.toggle("show");
+  hide.classList.toggle("hide");
+}
+
+function showCarDetailsSm(){
+  let show = document.querySelector(".car-list-item");
+  let hide = document.querySelector(".main-content-section");
+  let imgSrcFirst = $(".cars-s-m.random-car-sale").find(".first-image-small").attr("src");
+  let imgSrcSecond = $(".cars-s-m.random-car-sale").find(".second-image-small").attr("src");
+  let imgSrcThird = $(".cars-s-m.random-car-sale").find(".third-image-small").attr("src");
+  let imgSrcFourth = $(".cars-s-m.random-car-sale").find(".fourth-image-small").attr("src");
+  $("#first-image-details").attr("src", imgSrcFirst);
+  $("#second-image-details").attr("src", imgSrcSecond);
+  $("#third-image-details").attr("src", imgSrcThird);
+  $("#fourth-image-details").attr("src", imgSrcFourth);
   show.classList.toggle("show");
   hide.classList.toggle("hide");
 }
@@ -73,13 +93,21 @@ function hideCarDetails(){
 function nextCarouselItem(){
   let currentPicture = document.querySelector(".active");
   let nextPicture = currentPicture.nextElementSibling;
-  currentPicture.classList.remove("active");
-  nextPicture.classList.add("active");
+  if(nextPicture == null){
+    return;
+    } else {
+    currentPicture.classList.remove("active");
+    nextPicture.classList.add("active");
+  }
 }
 
 function previousCarouselItem(){
   let currentPicture = document.querySelector(".active");
   let previousPicture = currentPicture.previousElementSibling;
-  currentPicture.classList.remove("active");
-  previousPicture.classList.add("active");
+  if (previousPicture == null){
+    return;
+    } else {
+    currentPicture.classList.remove("active");
+    previousPicture.classList.add("active");
+  }
 }

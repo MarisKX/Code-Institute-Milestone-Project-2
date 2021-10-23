@@ -132,7 +132,6 @@ body {
 
 .item-image-small {
   float: right;
-  margin-right: 10px;
 }
 
 .car-list-item{
@@ -162,6 +161,10 @@ body {
 
 .main-content-section.hide {
   display: none;
+}
+
+.col-sm-6 {
+  padding-right: 0px;
 }
 
 /* slide carousel test field css */
@@ -194,7 +197,11 @@ body {
   margin: 0 auto;
   width: 60px;
   height: 30px;
-  background-color: rgb(193, 195, 195);
+  background: rgb(193, 195, 195);
+}
+
+.hidden-picture {
+  display: none;
 }
 
 
