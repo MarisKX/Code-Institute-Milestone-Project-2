@@ -183,6 +183,10 @@ body {
   justify-content: center;
 }
 
+.underline-mobile-devices {
+  display: none;
+}
+
 /* slide carousel test field css */
 
 .carousel-item {
@@ -306,6 +310,7 @@ body {
       float: right;
       margin-right: 50px;
       margin-top: 80px;
+      color: rgb(193, 195, 195);
     }
     .outer {
       height: 60px;
@@ -318,10 +323,11 @@ body {
     margin-left: 10px;
     }
     .title-wrapper {
-      background: linear-gradient(to right, rgb(18, 141, 255) 30%, rgb(219, 219, 219) 80%);
+      background: linear-gradient(to right, rgb(18, 141, 255) 55%, rgb(219, 219, 219) 90%);
       width: 70%
     }
     .underline-mobile-devices {
+      display: block;
       width: 80%;
       height: 2px;
       background: linear-gradient(to right, rgba(18, 141, 255, 0.6) 45%, rgb(219, 219, 219) 80%);
