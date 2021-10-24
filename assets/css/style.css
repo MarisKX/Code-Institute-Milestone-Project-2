@@ -168,17 +168,7 @@ body {
   margin-bottom: 10px;
 }
 
-.col-md-6.image {
-  display: flex;
-  justify-content: center;
-}
-
-.col-md-4.image {
-  display: flex;
-  justify-content: center;
-}
-
-.col-sm-12.image {
+.col-sm-6.image, .col-md-4.image, .col-md-12.image {
   display: flex;
   justify-content: center;
 }
@@ -322,14 +312,17 @@ body {
     .row.cars-for-sale {
     margin-left: 10px;
     }
-    .title-wrapper {
+    .title-wrapper{
       background: linear-gradient(to right, rgb(18, 141, 255) 55%, rgb(219, 219, 219) 90%);
-      width: 70%
-    }
-    .underline-mobile-devices {
-      display: block;
       width: 80%;
-      height: 2px;
-      background: linear-gradient(to right, rgba(18, 141, 255, 0.6) 45%, rgb(219, 219, 219) 80%);
     }
+}
+
+@media only screen and (max-width: 950px) {
+  .underline-mobile-devices {
+    display: block;
+    width: 80%;
+    height: 2px;
+    background: linear-gradient(to right, rgba(18, 141, 255, 0.6) 45%, rgb(219, 219, 219) 80%);
+  }
 }

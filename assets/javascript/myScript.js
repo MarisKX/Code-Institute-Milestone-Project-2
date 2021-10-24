@@ -35,7 +35,7 @@ let carSelectorMiddleSale = Math.floor(Math.random() * $(".cars-s-m").length);
 $(".cars-s-m").hide().eq(carSelectorMiddleSale).show().addClass("random-car-sale");
 
 let carSelectorRightSale = Math.floor(Math.random() * $(".cars-s-r").length);
-$(".cars-s-r").hide().eq(carSelectorRightSale).show();
+$(".cars-s-r").hide().eq(carSelectorRightSale).show().addClass("random-car-sale");
 
 let carSelectorLeftRent = Math.floor(Math.random() * $(".cars-r-l").length);
 $(".cars-r-l").hide().eq(carSelectorLeftRent).show();
@@ -99,6 +99,21 @@ function showCarDetailsSm(){
   let imgSrcSecond = $(".cars-s-m.random-car-sale").find(".second-image-small").attr("src");
   let imgSrcThird = $(".cars-s-m.random-car-sale").find(".third-image-small").attr("src");
   let imgSrcFourth = $(".cars-s-m.random-car-sale").find(".fourth-image-small").attr("src");
+  $("#first-image-details").attr("src", imgSrcFirst);
+  $("#second-image-details").attr("src", imgSrcSecond);
+  $("#third-image-details").attr("src", imgSrcThird);
+  $("#fourth-image-details").attr("src", imgSrcFourth);
+  show.classList.toggle("show");
+  hide.classList.toggle("hide");
+}
+
+function showCarDetailsSr(){
+  let show = document.querySelector(".car-list-item");
+  let hide = document.querySelector(".main-content-section");
+  let imgSrcFirst = $(".cars-s-r.random-car-sale").find(".first-image-small").attr("src");
+  let imgSrcSecond = $(".cars-s-r.random-car-sale").find(".second-image-small").attr("src");
+  let imgSrcThird = $(".cars-s-r.random-car-sale").find(".third-image-small").attr("src");
+  let imgSrcFourth = $(".cars-s-r.random-car-sale").find(".fourth-image-small").attr("src");
   $("#first-image-details").attr("src", imgSrcFirst);
   $("#second-image-details").attr("src", imgSrcSecond);
   $("#third-image-details").attr("src", imgSrcThird);
