@@ -404,3 +404,17 @@ dl dd {
     margin-top: 10px;
   }
 }
+
+/* specific styles to cars for sale page */
+
+.col-sm-1 {
+  text-align: right;
+}
+
+.underline-car-section {
+  display: block;
+  width: 70%;
+  height: 2px;
+  margin: 1% 15% 1% 5%;
+  background: linear-gradient(to right, rgba(18, 141, 255, 0.6) 45%, rgb(219, 219, 219) 80%);
+}
