@@ -185,7 +185,7 @@ body {
   display: none;
 }
 
-.title.back, .cars-s-l.row, .cars-s-m.row, .cars-s.r.row, .cars-r-l.row, .cars-r-m.row,.cars-r-r.row {
+.title.back, .cars-s-l.row, .cars-s-m.row, .cars-s-r.row, .cars-r-l.row, .cars-r-m.row,.cars-r-r.row {
   cursor: pointer;
 }
 
