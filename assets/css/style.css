@@ -177,6 +177,18 @@ body {
   display: none;
 }
 
+.hidden-picture {
+  display: none;
+}
+
+.col-md-6.hidden {
+  display: none;
+}
+
+.title.back, .cars-s-l.row, .cars-s-m.row, .cars-s.r.row, .cars-r-l.row, .cars-r-m.row,.cars-r-r.row {
+  cursor: pointer;
+}
+
 /* slide carousel test field css */
 
 .carousel-item {
@@ -210,13 +222,7 @@ body {
   background: rgb(193, 195, 195);
 }
 
-.hidden-picture {
-  display: none;
-}
 
-.col-md-6.hidden {
-  display: none;
-}
 
 
 /* footer section  *//* footer section  *//* footer section  *//* footer section  *//* footer section  *//* footer section  *//* footer section  */
