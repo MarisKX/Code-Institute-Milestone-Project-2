@@ -189,7 +189,11 @@ body {
   cursor: pointer;
 }
 
-/* slide carousel test field css */
+h6.hidden, .hidden-description {
+  display: none;
+}
+
+/* slide carousel and details css */
 
 .carousel-item {
   width: 90%;
@@ -222,7 +226,61 @@ body {
   background: rgb(193, 195, 195);
 }
 
+.title.basic-info {
+  margin-top: 4px;
+}
 
+.title-wrapper.info-title {
+  height: 30px;
+  width: 60%;
+  margin: 15px 0px 15px 40px;
+}
+
+.row.info-row {
+  justify-content: center;
+}
+
+.top-table {
+    margin-bottom:50px;
+}
+
+dl dt {
+    background:inherit;
+    color:#fff;
+    float:left;
+    font-weight:bold;
+    margin-right:10px;
+    padding:5px;
+    width:150px;
+}
+
+dl dd {
+    margin:2px 0;
+    padding:5px 0;
+}
+
+.icon-title {
+  float: right;
+  margin-right: 10px;
+  color: rgb(70, 70, 70);
+}
+
+.icon {
+  color: rgb(70, 70, 70);
+}
+
+.top-table.right {
+  float: right;
+}
+
+.top-table.left {
+  float: left;
+}
+
+.three-car-details-section {
+  width: 70%;
+  margin-left: 15%;
+}
 
 
 /* footer section  *//* footer section  *//* footer section  *//* footer section  *//* footer section  *//* footer section  *//* footer section  */
@@ -330,6 +388,13 @@ body {
     width: 80%;
     height: 2px;
     background: linear-gradient(to right, rgba(18, 141, 255, 0.6) 45%, rgb(219, 219, 219) 80%);
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .row-table {
+    width: 80%;
+    margin: auto;
   }
 }
 
