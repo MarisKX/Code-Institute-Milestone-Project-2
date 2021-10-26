@@ -233,3 +233,51 @@ function previousCarouselItem(){
     previousPicture.classList.add("active");
   }
 }
+
+// shows car details on cars for sale and rent page -----------------------------------------------------------------------------------
+
+
+function clickedCar(carsId) {
+  console.log (carsId);
+  showCarDetails();
+  function showCarDetails() {
+    let show = document.querySelector(".car-list-item");
+    let hide = document.querySelector(".main-content-section");
+    let imgSrcFirst = $("#" + carsId).find(".first-image-small").attr("src");
+    let imgSrcSecond = $("#" + carsId).find(".second-image-small").attr("src");
+    let imgSrcThird = $("#" + carsId).find(".third-image-small").attr("src");
+    let imgSrcFourth = $("#" + carsId).find(".fourth-image-small").attr("src");
+    let make = $("#" + carsId).find(".make").text();
+    let model = $("#" + carsId).find(".model").text();
+    let year = $("#" + carsId).find(".year").text();
+    let fuel = $("#" + carsId).find(".fuel").text();
+    let engine = $("#" + carsId).find(".engine").text();
+    let gearbox = $("#" + carsId).find(".gearbox").text();
+    let milage = $("#" + carsId).find(".milage").text();
+    let apk = $("#" + carsId).find(".apk").text();
+    let color = $("#" + carsId).find(".color").text();
+    let price = $("#" + carsId).find(".price").text();
+    let descriptionLeft = $("#" + carsId).find(".description-first").text();
+    let descriptionMiddle = $("#" + carsId).find(".description-second").text();
+    let descriptionRight = $("#" + carsId).find(".description-third").text();
+    $("#first-image-details").attr("src", imgSrcFirst);
+    $("#second-image-details").attr("src", imgSrcSecond);
+    $("#third-image-details").attr("src", imgSrcThird);
+    $("#fourth-image-details").attr("src", imgSrcFourth);
+    $("#make").text(make);
+    $("#model").text(model);
+    $("#year").text(year);
+    $("#fuel").text(fuel);
+    $("#engine").text(engine);
+    $("#gearbox").text(gearbox);
+    $("#milage").text(milage);
+    $("#apk").text(apk);
+    $("#color").text(color);
+    $("#price").text(price);
+    $("#left-side-description-p").text(descriptionLeft);
+    $("#middle-side-description-p").text(descriptionMiddle);
+    $("#right-side-description-p").text(descriptionRight);
+    show.classList.toggle("show");
+    hide.classList.toggle("hide");
+  }
+}
