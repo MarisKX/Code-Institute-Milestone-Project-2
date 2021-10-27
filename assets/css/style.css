@@ -134,11 +134,11 @@ body {
   float: right;
 }
 
-.car-list-item{
+.car-list-item, .car-list-item-rent {
   display: none;
 }
 
-.car-list-item.show {
+.car-list-item.show, .car-list-item-rent.show {
   visibility: visible;
   display: block;
   position: relative;
@@ -311,7 +311,7 @@ dl dd {
   margin-right: 10%;
 }
 
-.main-content-section.cars-for-sale {
+.main-content-section.cars-for-sale, .main-content-section.cars-for-rent {
   margin-left: 10%;
   margin-right: 10%;
 }
