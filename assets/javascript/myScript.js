@@ -216,8 +216,8 @@ function showCarDetailsRl(){
   let fuel = $(".cars-r-l.random-car-sale").find(".fuel").text();
   let engine = $(".cars-r-l.random-car-sale").find(".engine").text();
   let gearbox = $(".cars-r-l.random-car-sale").find(".gearbox").text();
-  let milage = $(".cars-r-l.random-car-sale").find(".milage").text();
-  let apk = $(".cars-r-l.random-car-sale").find(".apk").text();
+  let milage = $(".cars-r-l.random-car-sale").find(".milage-limit").text();
+  let apk = $(".cars-r-l.random-car-sale").find(".discount").text();
   let color = $(".cars-r-l.random-car-sale").find(".color").text();
   let price = $(".cars-r-l.random-car-sale").find(".price").text();
   let descriptionLeft = $(".cars-r-l.random-car-sale").find(".description-first").text();
@@ -233,8 +233,8 @@ function showCarDetailsRl(){
   $("#fuel").text(fuel);
   $("#engine").text(engine);
   $("#gearbox").text(gearbox);
-  $("#milage").text(milage);
-  $("#apk").text(apk);
+  $("#milage-limit").text(milage);
+  $("#discount").text(apk);
   $("#color").text(color);
   $("#price").text(price);
   $("#left-side-description-p").text(descriptionLeft);
@@ -395,8 +395,8 @@ function clickedCarRent(carsId) {
     let fuel = $("#" + carsId).find(".fuel").text();
     let engine = $("#" + carsId).find(".engine").text();
     let gearbox = $("#" + carsId).find(".gearbox").text();
-    let milage = $("#" + carsId).find(".milage").text();
-    let apk = $("#" + carsId).find(".apk").text();
+    let milageLimit = $("#" + carsId).find(".milage-limit").text();
+    let discount = $("#" + carsId).find(".discount").text();
     let color = $("#" + carsId).find(".color").text();
     let price = $("#" + carsId).find(".price").text();
     let descriptionLeft = $("#" + carsId).find(".description-first").text();
@@ -412,8 +412,8 @@ function clickedCarRent(carsId) {
     $("#fuel").text(fuel);
     $("#engine").text(engine);
     $("#gearbox").text(gearbox);
-    $("#milage").text(milage);
-    $("#apk").text(apk);
+    $("#milage-limit").text(milageLimit);
+    $("#discount").text(discount);
     $("#color").text(color);
     $("#price").text(price);
     $("#left-side-description-p").text(descriptionLeft);
