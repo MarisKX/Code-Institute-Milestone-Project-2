@@ -430,7 +430,7 @@ dl dd {
       color: black;
       margin-top: 30px;
     }
-    .row.cars-for-sale {
+    .row.cars-for-sale, .row.cars-for-rent, .row.service-your-car, .row.change-tires, .row.contact-us {
     margin-left: 10px;
     }
     .title-wrapper{
@@ -500,6 +500,13 @@ dl dd {
   }
   h5 {
     font-size: 1.0rem;
+  }
+  .title, .back {
+    margin-top: 5px;
+    font-size: 1.1rem;
+  }
+  .title-wrapper {
+    height: 30px;
   }
 }
 
