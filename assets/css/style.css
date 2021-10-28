@@ -514,4 +514,520 @@ dl dd {
   .col-12.col-sm-4.image {
     margin-right: 20%;
   }
+}body {
+  background-color: rgba(219, 219, 219);
+}
+
+/* navbar and header styles *//* navbar and header styles *//* navbar and header styles *//* navbar and header styles *//* navbar and header styles */
+
+.logo-small {
+  height: 50px;
+  width: 50px;
+}
+
+
+#main-menu-frame {
+  background-color: rgba(18, 141, 255, 1);
+  position: sticky;
+   top: 0;
+   z-index: 100;
+}
+
+.nav-link {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 50px;
+  margin-bottom: auto;
+  font-size: 1.2em;
+  color: rgb(193, 195, 195);
+  background-color: transparent;
+  width: 185px;
+  text-align: center;
+  padding: 5px 2px 5px 2px;
+  transform: skewX(17deg);
+}
+
+.nav-link.selected {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 1.35em;
+  font-weight: bold;
+  color: rgb(18, 141, 255);
+  transform: skewX(17deg);
+}
+
+.outer:hover .nav-link {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: auto;
+  font-size: 1.35em;
+  font-weight: bold;
+  color: rgb(18, 141, 255);
+  transform: skewX(17deg);
+}
+
+.outer {
+  margin: auto 0;
+  height: 150px;
+  transform: skewX(-17deg);
+}
+
+.outer:hover {
+  background-color: rgb(193, 195, 195);
+}
+
+.outer.selected {
+  background-color: rgb(193, 195, 195);
+}
+
+.navbar-toggler {
+  display: none;
+}
+
+.navbar-brand {
+  margin: auto 0;
+  padding: 0.5rem;
+  border-radius: 50px;
+}
+
+.navbar {
+  padding: 0;
+  margin: auto 0;
+  height: 150px;
+  width: 100%;
+}
+
+.container-fluid {
+  height: 150px;
+}
+
+.spacer {
+  width: 100%;
+  height: 5px;
+  background-color: rgb(219, 219, 219);
+}
+
+/* main content section *//* main content section *//* main content section *//* main content section *//* main content section *//* main content section *//* main content section *//* main content section */
+
+.main-content-section {
+  padding-left: 20px;
+}
+
+.row.cars-for-sale, .row.cars-for-rent, .row.service-your-car, .row.change-tires, .row.contact-us {
+  width: 95%;
+  margin-left: 30px;
+}
+
+.title-wrapper {
+  margin: 40px 0px 20px 50px;
+  height: 70px;
+  width: 100%;
+  background: linear-gradient(to right, rgb(18, 141, 255) 10%, rgb(219, 219, 219) 60%);
+  transform: skewX(-17deg);
+}
+
+.title-wrapper:hover {
+  background: linear-gradient(to right, rgb(193, 195, 195) 10%, rgb(219, 219, 219) 60%);
+}
+
+.title {
+  text-align: center;
+  float: left;
+  margin-left: 25px;
+  margin-top: 15px;
+  background-color: inherit;
+  color: rgb(193, 195, 195);
+  transform: skewX(17deg);
+}
+
+.title-wrapper:hover .title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(18, 141, 255);
+}
+
+.item-image-small {
+  float: right;
+}
+
+.car-list-item, .car-list-item-rent {
+  display: none;
+}
+
+.car-list-item.show, .car-list-item-rent.show {
+  visibility: visible;
+  display: block;
+  position: relative;
+  z-index: 1;
+}
+
+.car-image-frame {
+  align-items: center;
+  margin-top: 15px;
+}
+
+.item-image-large {
+  display: block;
+  margin: auto;
+}
+
+.main-menu-frame {
+  visibility: hidden;
+}
+
+.main-content-section.hide {
+  display: none;
+}
+
+.col-md4, .col-md-6, .col-md-12 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.col-sm-6.image, .col-md-4.image, .col-md-12.image {
+  display: flex;
+  justify-content: center;
+}
+
+.underline-mobile-devices {
+  display: none;
+}
+
+.hidden-picture {
+  display: none;
+}
+
+.col-md-6.hidden {
+  display: none;
+}
+
+.title.back, .cars-s-l.row, .cars-s-m.row, .cars-s-r.row, .cars-r-l.row, .cars-r-m.row,.cars-r-r.row {
+  cursor: pointer;
+}
+
+h6.hidden, .hidden-description {
+  display: none;
+}
+
+/* slide carousel and details css */
+
+.carousel-item {
+  width: 90%;
+  max-height: 1100px;
+  margin: auto;
+  float: none;
+}
+
+.d-block {
+  max-height: inherit;
+  max-width: 1300px;
+  margin: auto;
+  object-fit: cover;
+}
+
+.slide-close-button {
+  padding: 0;
+  cursor: pointer;
+  object-fit: cover;
+  margin: auto 0;
+  border-radius: 5px;
+  width: inherit;
+  height: inherit;
+}
+
+.close-button-div {
+  margin: 0 auto;
+  width: 60px;
+  height: 30px;
+  background: rgb(193, 195, 195);
+}
+
+.title.basic-info {
+  margin-top: 4px;
+}
+
+.title-wrapper.info-title {
+  height: 30px;
+  width: 60%;
+  margin: 15px 0px 15px 40px;
+}
+
+.row.info-row {
+  justify-content: center;
+}
+
+.top-table {
+    margin-bottom:50px;
+}
+
+dl dt {
+    background:inherit;
+    color:#fff;
+    float:left;
+    font-weight:bold;
+    margin-right:10px;
+    padding:5px;
+    width:150px;
+}
+
+dl dd {
+    margin:2px 0;
+    padding:5px 0;
+}
+
+.icon-title {
+  float: right;
+  margin-right: 10px;
+  color: rgb(70, 70, 70);
+}
+
+.icon {
+  color: rgb(70, 70, 70);
+}
+
+.top-table.right {
+  float: right;
+}
+
+.top-table.left {
+  float: left;
+}
+
+.three-car-details-section {
+  width: 70%;
+  margin-left: 15%;
+}
+
+
+/* specific styles to cars for sale and cars for rent page */
+
+.col-sm-1 {
+  text-align: right;
+}
+
+.underline-car-section {
+  display: block;
+  width: 70%;
+  height: 2px;
+  margin: 1% 15% 1% 5%;
+  background: linear-gradient(to right, rgba(18, 141, 255, 0.6) 45%, rgb(219, 219, 219) 80%);
+}
+
+.cars-full-list {
+  justify-content: center;
+  margin-right: 20%;
+}
+
+.col-sm-1.hidden {
+  display: none;
+}
+
+.col-12.col-md-4.image {
+  margin-bottom: 5%;
+  margin-right: 10%;
+}
+
+.main-content-section.cars-for-sale, .main-content-section.cars-for-rent {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.fas, .far {
+  margin-right: 10px;
+}
+
+
+/* footer section  *//* footer section  *//* footer section  *//* footer section  *//* footer section  *//* footer section  *//* footer section  */
+
+.footer{
+  background-color: rgb(18, 141, 255);
+  color: rgb(193, 195, 195);
+  height: auto;
+  padding: 10px 10px 10px 20px;
+}
+
+.fab {
+  color: rgb(193, 195, 195);
+  font-size: 2rem;
+  margin: 20px 5px 0px 10px;
+}
+
+.footer-wrapper {
+  width: 75%;
+  margin: auto;
+}
+
+#copyright {
+  width: 75%;
+  margin: auto;
+}
+
+/* responsive styles *//* responsive styles *//* responsive styles *//* responsive styles *//* responsive styles *//* responsive styles *//* responsive styles *//* responsive styles */
+
+/* active on tablets&small PC screens*//* active on tablets&small PC screens*//* active on tablets&small PC screens*//* active on tablets&small PC screens*//* active on tablets&small PC screens*/
+
+@media only screen and (max-width: 1200px){
+  .navbar {
+    height: 100px;
+    flex-wrap: nowrap;
+  }
+  #c2g-logo{
+    height: 90px;
+    width: 90px;
+  }
+  .container-fluid {
+    height: inherit;
+  }
+  .navbar-nav {
+    flex-direction: row;
+    height: inherit;
+  }
+  .outer {
+    height: 100px;
+  }
+  .nav-link {
+    font-size: 1rem;
+    width: 120px;
+    margin-top: 25px;
+  }
+  .nav-link.selected {
+    font-size: 1.1rem;
+  }
+  .outer:hover .nav-link {
+    font-size: 1.1rem;
+  }
+  .container {
+    max-width: 800px;
+  }
+  .title-wrapper {
+    background: linear-gradient(to right, rgb(18, 141, 255) 30%, rgb(219, 219, 219) 80%);
+    width: 75%
+  }
+  h3 {
+    font-size: 1.1rem;
+  }
+  h5 {
+    font-size: 1.1rem;
+  }
+  .cars-full-list {
+    margin-right: 10%;
+  }
+}
+
+/* active on mobile devices and small tablets*//* active on mobile devices and small tablets*//* active on mobile devices and small tablets*//* active on mobile devices and small tablets*/
+
+@media only screen and (max-width: 900px) {
+  #main-nav-container {
+    display: none;
+  }
+  .navbar-toggler {
+    display: block;
+    position: absolute;
+    top: .85em;
+    right: 0.85em;
+    background-color: rgba(193, 195, 195, 0.7);
+    border: 1px solid rgb(193, 195, 195);
+    border-radius: 0.5rem;
+    width: 55px;
+    height: 55px;
+    font-size: 2rem;
+    }
+    .show-menu {
+      display: table;
+      float: right;
+      margin-right: 50px;
+      margin-top: 80px;
+      color: rgb(193, 195, 195);
+    }
+    .outer {
+      height: 60px;
+    }
+    .nav-link {
+      color: black;
+      margin-top: 30px;
+    }
+    .row.cars-for-sale, .row.cars-for-rent, .row.service-your-car, .row.change-tires, .row.contact-us {
+    margin-left: 10px;
+    }
+    .title-wrapper{
+      background: linear-gradient(to right, rgb(18, 141, 255) 55%, rgb(219, 219, 219) 90%);
+      width: 80%;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+  .underline-mobile-devices {
+    display: block;
+    width: 80%;
+    height: 2px;
+    background: linear-gradient(to right, rgba(18, 141, 255, 0.6) 45%, rgb(219, 219, 219) 80%);
+  }
+  .main-content-section.cars-for-sale {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .footer-wrapper {
+    width: 90%;
+  }
+
+  #copyright {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .row-table {
+    width: 80%;
+    margin: auto;
+  }
+  .col-md-3.image {
+    width: 40%;
+  }
+  .col-12.col-sm-4.image {
+    width: 100%;
+    margin-right: 70%;
+    margin-bottom: 5%;
+  }
+  .cars-full-list {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .footer-wrapper {
+    width: 75%;
+  }
+
+  #copyright {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .col-sm-6.description {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .col-12.col-sm-4.image {
+    width: 100%;
+    margin-right: 40%;
+    margin-bottom: 5%;
+  }
+  h3 {
+    font-size: 1.0rem;
+  }
+  h5 {
+    font-size: 1.0rem;
+  }
+  .title, .back {
+    margin-top: 5px;
+    font-size: 1.1rem;
+  }
+  .title-wrapper {
+    height: 30px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .col-12.col-sm-4.image {
+    margin-right: 20%;
+  }
 }
