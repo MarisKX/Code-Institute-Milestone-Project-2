@@ -399,9 +399,6 @@ function clickedCarRent(carsId) {
     let discount = $("#" + carsId).find(".discount").text();
     let color = $("#" + carsId).find(".color").text();
     let price = $("#" + carsId).find(".price").text();
-    let descriptionLeft = $("#" + carsId).find(".description-first").text();
-    let descriptionMiddle = $("#" + carsId).find(".description-second").text();
-    let descriptionRight = $("#" + carsId).find(".description-third").text();
     $("#first-image-details-rent").attr("src", imgSrcFirst);
     $("#second-image-details-rent").attr("src", imgSrcSecond);
     $("#third-image-details-rent").attr("src", imgSrcThird);
@@ -416,9 +413,6 @@ function clickedCarRent(carsId) {
     $("#discount").text(discount);
     $("#color").text(color);
     $("#price").text(price);
-    $("#left-side-description-p").text(descriptionLeft);
-    $("#middle-side-description-p").text(descriptionMiddle);
-    $("#right-side-description-p").text(descriptionRight);
     show.classList.toggle("show");
     hide.classList.toggle("hide");
     window.scrollTo(0,0);

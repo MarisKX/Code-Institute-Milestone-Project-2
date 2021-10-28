@@ -283,7 +283,7 @@ dl dd {
 }
 
 
-/* specific styles to cars for sale page */
+/* specific styles to cars for sale and cars for rent page */
 
 .col-sm-1 {
   text-align: right;
@@ -299,7 +299,7 @@ dl dd {
 
 .cars-full-list {
   justify-content: center;
-  margin-right: 25%;
+  margin-right: 20%;
 }
 
 .col-sm-1.hidden {
@@ -316,6 +316,10 @@ dl dd {
   margin-right: 10%;
 }
 
+.fas, .far {
+  margin-right: 10px;
+}
+
 
 /* footer section  *//* footer section  *//* footer section  *//* footer section  *//* footer section  *//* footer section  *//* footer section  */
 
@@ -330,6 +334,16 @@ dl dd {
   color: rgb(193, 195, 195);
   font-size: 2rem;
   margin: 20px 5px 0px 10px;
+}
+
+.footer-wrapper {
+  width: 75%;
+  margin: auto;
+}
+
+#copyright {
+  width: 75%;
+  margin: auto;
 }
 
 /* responsive styles *//* responsive styles *//* responsive styles *//* responsive styles *//* responsive styles *//* responsive styles *//* responsive styles *//* responsive styles */
@@ -372,6 +386,15 @@ dl dd {
   .title-wrapper {
     background: linear-gradient(to right, rgb(18, 141, 255) 30%, rgb(219, 219, 219) 80%);
     width: 75%
+  }
+  h3 {
+    font-size: 1.1rem;
+  }
+  h5 {
+    font-size: 1.1rem;
+  }
+  .cars-full-list {
+    margin-right: 10%;
   }
 }
 
@@ -427,6 +450,13 @@ dl dd {
     margin-left: 0;
     margin-right: 0;
   }
+  .footer-wrapper {
+    width: 90%;
+  }
+
+  #copyright {
+    width: 90%;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -438,12 +468,20 @@ dl dd {
     width: 40%;
   }
   .col-12.col-sm-4.image {
-    margin-bottom: 10%;
-    margin-left: 15%;
+    width: 100%;
+    margin-right: 70%;
+    margin-bottom: 5%;
   }
   .cars-full-list {
     margin-left: 0;
     margin-right: 0;
+  }
+  .footer-wrapper {
+    width: 75%;
+  }
+
+  #copyright {
+    width: 75%;
   }
 }
 
@@ -452,7 +490,21 @@ dl dd {
     text-align: center;
     margin-top: 10px;
   }
-  .item-image-small {
-    float: none;
+  .col-12.col-sm-4.image {
+    width: 100%;
+    margin-right: 40%;
+    margin-bottom: 5%;
+  }
+  h3 {
+    font-size: 1.0rem;
+  }
+  h5 {
+    font-size: 1.0rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .col-12.col-sm-4.image {
+    margin-right: 20%;
   }
 }
