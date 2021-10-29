@@ -35,17 +35,26 @@ This is the main website for C2G. It is designed to be responsibe and accessible
 
 *   ### Wireframes
 
-    -   Landing page wireframe - Desktop-[View](https://github.com/MarisKX/Code-Institute-Milestone-Project-2/blob/main/assets/other/Index%20page.pdf), Mobile-[View](https://github.com/MarisKX/Code-Institute-Milestone-Project-2/blob/main/assets/other/Index%20page%20mobile.pdf)
+    -   Landing page wireframe - Desktop-[View](https://github.com/MarisKX/Code-Institute-Milestone-Project-2/blob/main/assets/other/Index%20page.pdf), 
+        Mobile-[View](https://github.com/MarisKX/Code-Institute-Milestone-Project-2/blob/main/assets/other/Index%20page%20mobile.pdf)
 
-    -   Cars for sale/cars for rent (uses the same structure) - Desktop-[View](https://github.com/), Mobile-(https://github.com/)
+    -   Cars for sale/cars for rent (uses the same structure) - Desktop-[View](https://github.com/MarisKX/Code-Institute-Milestone-Project-2/blob/main/assets/other/Cars%20for%20sale%20and%20cars%20for%20rent.pdf), 
+        Mobile-[View](https://github.com/MarisKX/Code-Institute-Milestone-Project-2/blob/main/assets/other/Cars%20for%20sale%20and%20cars%20for%20rent%20mobile.pdf)
 
-    -   Contact Us Page Wireframe - Desktop-[View](https://github.com/), Mobile-(https://github.com/)
+    -   Contact Us Page Wireframe - Desktop-[View](https://github.com/MarisKX/Code-Institute-Milestone-Project-2/blob/main/assets/other/Contact%20page.pdf), 
+        Mobile-[View](https://github.com/MarisKX/Code-Institute-Milestone-Project-2/blob/main/assets/other/Contact%20page%20mobile.pdf)
 
 ## Features
 
 -   Responsive on all device sizes
 
 -   Interactive elements
+
+    - Randomly seleceted cars to choose from for sale and for rent
+    - By clicking on car image (or description) opens window, where user can see 4 pictures of car in larger size depends on the screen)
+    - By clicking on car image (or description) opens window, where user can see full description of car, main features are ilustrated with icons
+
+- Navigation is made easier by double options - either from standart menu or in landing page itself by clicking on coresponding section names
 
 ## Technologies Used
 
