@@ -483,6 +483,8 @@ function clickedCarRent(carsId) {
   }
 }
 
+// renders google map with location markers in contact section and page  -----------------------------------------------------------------------------------
+
 function initMap() {
   var map = new google.maps.Map(document.getElementById("map"), {
     zoom: 12,
