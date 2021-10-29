@@ -1,4 +1,4 @@
-<h2 align="center"><img src="/workspace/Code-Institute-Milestone-Project-2/assets/images/c2gtb.png"></h2>
+<h2 align="center"><img src="https://raw.githubusercontent.com/MarisKX/Code-Institute-Milestone-Project-2/main/assets/images/c2gtb.png"></h2>
 <h1 align="center">Car 2 Go BV (C2G) website and online car showroom</h1>
 
 [View the live project here.](https://mariskx.github.io/Code-Institute-Milestone-Project-2/index.html)
@@ -48,6 +48,8 @@ This is the main website for C2G. It is designed to be responsibe and accessible
 -   Interactive elements
 
 ## Technologies Used
+
+-   Initial development was made using [Atom](https://atom.io/) text editor
 
 ### Languages Used
 
