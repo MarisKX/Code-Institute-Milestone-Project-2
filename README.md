@@ -35,7 +35,7 @@ This is the main website for C2G. It is designed to be responsibe and accessible
 
 *   ### Wireframes
 
-    -   Landing page wireframe - Desktop-[View](https://github.com/), Mobile-[View](https://github.com/)
+    -   Landing page wireframe - Desktop-[View](https://github.com/MarisKX/Code-Institute-Milestone-Project-2/blob/main/assets/other/Index%20page.pdf), Mobile-[View](https://github.com/MarisKX/Code-Institute-Milestone-Project-2/blob/main/assets/other/Index%20page%20mobile.pdf)
 
     -   Cars for sale/cars for rent (uses the same structure) - Desktop-[View](https://github.com/), Mobile-(https://github.com/)
 
