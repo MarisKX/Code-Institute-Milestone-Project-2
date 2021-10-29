@@ -293,7 +293,7 @@ dl dd {
   width: 70%;
   height: 2px;
   margin: 1% 15% 1% 5%;
-  background: linear-gradient(to right, rgba(18, 141, 255, 0.6) 45%, rgb(219, 219, 219) 80%);
+  background: linear-gradient(to right, rgba(18, 141, 255, 0.6) 65%, rgb(219, 219, 219) 85%);
 }
 
 .cars-full-list {
@@ -383,6 +383,9 @@ dl dd {
     width: 120px;
     margin-top: 25px;
   }
+  .nav-link.selected {
+    font-size: 1.4rem;
+  }
   .container {
     max-width: 800px;
   }
@@ -450,7 +453,8 @@ dl dd {
     display: block;
     width: 80%;
     height: 2px;
-    background: linear-gradient(to right, rgba(18, 141, 255, 0.6) 45%, rgb(219, 219, 219) 80%);
+    background: linear-gradient(to right, rgba(18, 141, 255, 0.6) 65%, rgb(219, 219, 219) 80%);
+    margin-bottom: 5px;
   }
   .main-content-section.cars-for-sale {
     margin-left: 0;
@@ -488,6 +492,9 @@ dl dd {
 
   #copyright {
     width: 75%;
+  }
+  .map-frame {
+    width: 100%;
   }
 }
 
