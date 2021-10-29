@@ -87,8 +87,8 @@ This is the main website for C2G. It is designed to be responsibe and accessible
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://validator.w3.org/) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://raw.githubusercontent.com/MarisKX/Code-Institute-Milestone-Project-2/main/assets/other/Screenshot%20(36).png)
+-   [W3C Markup Validator](https://validator.w3.org/) - [Results index page](https://github.com/), [Results index page](https://github.com/), [Results index page](https://github.com/), [Results index page](https://github.com/)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://raw.githubusercontent.com/MarisKX/Code-Institute-Milestone-Project-2/main/assets/other/CSS.png)
 
 ### Testing User Stories from User Experience (UX) Section
 
