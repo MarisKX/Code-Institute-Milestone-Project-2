@@ -1,5 +1,3 @@
-console.log("Success");
-
 // menu button (burger) -------------------------------------------------------------
 
 let menu = document.querySelector(".navbar-nav");
