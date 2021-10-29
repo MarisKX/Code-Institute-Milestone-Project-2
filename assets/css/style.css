@@ -23,7 +23,7 @@ body {
   margin-right: 10px;
   margin-top: 50px;
   margin-bottom: auto;
-  font-size: 1.2em;
+  font-size: 1.7em;
   color: rgb(193, 195, 195);
   background-color: transparent;
   width: 185px;
@@ -35,7 +35,7 @@ body {
 .nav-link.selected {
   margin-left: 10px;
   margin-right: 10px;
-  font-size: 1.35em;
+  font-size: 1.8em;
   font-weight: bold;
   color: rgb(18, 141, 255);
   transform: skewX(17deg);
@@ -45,8 +45,6 @@ body {
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: auto;
-  font-size: 1.35em;
-  font-weight: bold;
   color: rgb(18, 141, 255);
   transform: skewX(17deg);
 }
