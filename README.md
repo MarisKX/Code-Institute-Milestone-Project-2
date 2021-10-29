@@ -35,11 +35,11 @@ This is the main website for C2G. It is designed to be responsibe and accessible
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/)
+    -   Landing page wireframe - Desktop-[View](https://github.com/), Mobile-[View](https://github.com/)
 
-    -   Mobile Wireframe - [View](https://github.com/)
+    -   Cars for sale/cars for rent (uses the same structure) - Desktop-[View](https://github.com/), Mobile-(https://github.com/)
 
-    -   Contact Us Page Wireframe - [View](https://github.com/)
+    -   Contact Us Page Wireframe - Desktop-[View](https://github.com/), Mobile-(https://github.com/)
 
 ## Features
 
