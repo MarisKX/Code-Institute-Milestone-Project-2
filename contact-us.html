@@ -21,19 +21,13 @@
             <div class="container-fluid" id="main-nav-container">
               <div class="navbar-nav">
                 <div class="outer">
-                    <a class="nav-link" href="cars-for-sale.html">Cars for sale</a>
+                  <a class="nav-link" href="cars-for-sale.html">Cars for sale</a>
                 </div>
                 <div class="outer">
-                    <a class="nav-link" href="cars-for-rent.html">Cars for rent</a>
+                  <a class="nav-link" href="cars-for-rent.html">Cars for rent</a>
                 </div>
-                <div class="outer">
-                <a class="nav-link" href="service-your-car.html">Service <br>Your car</a>
-                </div>
-                <div class="outer">
-                <a class="nav-link" href="change-tires.html">Change tires</a>
-                </div>
-                <div class="outer active">
-                <a class="nav-link active" href="contact-us.html">Contact Us</a>
+                <div class="outer selected">
+                  <a class="nav-link selected" href="contact-us.html">Contact Us</a>
                 </div>
               </div>
             </div>
@@ -50,7 +44,32 @@
 
 
     <section>
-      Contact Us
+      <div class="map-frame">
+        <div class="" id="map"></div>
+        <div class="title-wrapper info-title">
+          <h5 class="title basic-info">Our locations</h5>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 col-12">
+            <h4>Main office (A)</h4>
+            <p>Erasplaats 38<br>
+              5046LB Tilburg<br>
+            </p>
+          </div>
+          <div class="col-sm-4 col-12">
+            <h4>Car showroom (B)</h4>
+            <p>Pegasusweg 4<br>
+              5015 BZ Tilburg<br>
+            </p>
+          </div>
+          <div class="col-sm-4 col-12">
+            <h4>Car rental office (C)</h4>
+            <p>Van Hogendorpstraat 81<br>
+              5046LC Tilburg<br>
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 <footer class="container-fluid footer">
 <div class="footer-wrapper">
@@ -105,8 +124,8 @@
 </div>
 
 </footer>
-
-
+<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEUmxT1D5NcJi0SThLWZBrjiy4C_NJ8sw&callback=initMap&v=weekly"></script>
 <script src="assets/javascript/myScript.js"></script>
 </body>
 </html>

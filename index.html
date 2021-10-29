@@ -27,12 +27,6 @@
                 <a class="nav-link" href="cars-for-rent.html">Cars for rent</a>
               </div>
               <div class="outer">
-                <a class="nav-link" href="service-your-car.html">Service <br>Your car</a>
-              </div>
-              <div class="outer">
-                <a class="nav-link" href="change-tires.html">Change tires</a>
-              </div>
-              <div class="outer">
                 <a class="nav-link" href="contact-us.html">Contact Us</a>
               </div>
             </div>
@@ -917,51 +911,36 @@
         </div>
       </div>
     </div>
-    <div class="row service-your-car">
-      <div class="title-wrapper">
-        <a href="service-your-car.html"><h2 class="title">Service Your Car</h2></a>
-      </div>
-      <div class="col-md-4">
-        <div class="job">
-            Job 1
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="job">
-            Job 2
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="job">
-            Job 3
-        </div>
-      </div>
-    </div>
-    <div class="row change-tires">
-      <div class="title-wrapper">
-        <a href="change-tires.html"><h2 class="title">Change Tires</h2></a>
-      </div>
-      <div class="col-md-4">
-        <div class="tyre-l">
-            Tyre 1
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="tyre-m">
-          Tyre 2
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="tyre-r">
-          Tyre 3
-        </div>
-      </div>
-    </div>
     <div class="row contact-us">
       <div class="title-wrapper">
         <a href="contact-us.html"><h2 class="title">Contact Us</h2></a>
       </div>
-      <div class="locations-map" id="location-map">
+      <div class="map-frame">
+        <div class="" id="map"></div>
+        <div class="title-wrapper info-title">
+          <h5 class="title basic-info">Our locations</h5>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 col-12">
+            <h4>Main office (A)</h4>
+            <p>Erasplaats 38<br>
+              5046LB Tilburg<br>
+            </p>
+          </div>
+          <div class="col-sm-4 col-12">
+            <h4>Car showroom (B)</h4>
+            <p>Pegasusweg 4<br>
+              5015 BZ Tilburg<br>
+            </p>
+          </div>
+          <div class="col-sm-4 col-12">
+            <h4>Car rental office (C)</h4>
+            <p>Van Hogendorpstraat 81<br>
+              5046LC Tilburg<br>
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
   <div class = "car-list-item">
@@ -1209,6 +1188,8 @@
       <i class="far fa-copyright" aria-hidden="true"> MKX 2021</i>
     </div>
   </footer>
+  <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEUmxT1D5NcJi0SThLWZBrjiy4C_NJ8sw&callback=initMap&v=weekly"></script>
   <script src="assets/javascript/myScript.js"></script>
 </body>
 </html>

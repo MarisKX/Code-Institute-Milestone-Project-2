@@ -484,3 +484,27 @@ function clickedCarRent(carsId) {
     window.scrollTo(0,0);
   }
 }
+
+function initMap() {
+  var map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 12,
+    center: {
+      lat: 51.585255,
+      lng: 5.056375
+    }
+  });
+  var labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  var locations = [
+    {lat: 51.574534, lng: 5.080644},
+    {lat: 51.578754, lng: 5.118803},
+    {lat: 51.573124, lng: 5.076357}
+  ];
+  var markers = locations.map(function(location, i) {
+    return new google.maps.Marker({
+      position: location,
+      label: labels[i % labels.length]
+    });
+  });
+  var markerCluster = new MarkerClusterer(map, markers,
+  {imagePath: "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m"});
+}
